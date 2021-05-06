@@ -1,0 +1,43 @@
+.row {
+    display: flex;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.completed .total {
+    color: #ccc;
+}
+
+div {
+    padding: 5px 0;
+}
+
+.title {
+    display: flex;
+    width: 30%;
+    padding: 0 5px;
+}
+
+.price {
+    width: 15%;
+    padding: 0 5px;
+}
+
+.quantity {
+    width: 15%;
+    padding: 0 5px;
+}
+
+.total {
+    width: 15%;
+    padding: 0 5px;
+    color: #0f0;
+}
+
+.actions {
+    width: 15%;
+    padding: 0 5px;
+}
